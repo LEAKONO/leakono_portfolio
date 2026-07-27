@@ -18,7 +18,7 @@ export const useLenis = () => {
       wheelMultiplier: 0.8, // Reduced for smoother wheel scrolling
       touchMultiplier: 1.2, // Slightly increased for better touch response
       syncTouch: true, // Better touch handling
-      normalizeWheel: true, // Normalize wheel events for consistent behavior
+      // normalizeWheel removed - not supported in this version
     });
 
     lenisRef.current = lenis;

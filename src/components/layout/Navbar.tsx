@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Download } from 'lucide-react';
-import { Button } from '../ui/Button';
+import { Menu, X } from 'lucide-react';
 
 interface NavItem {
   label: string;
@@ -77,7 +76,7 @@ export const Navbar: React.FC = () => {
               EL
             </div>
             <span className="text-xl font-bold text-white group-hover:text-blue-400 transition duration-300">
-              Leakono<span className="text-blue-400">.</span>
+              Emmanuel<span className="text-blue-400">.</span>
             </span>
           </a>
 
@@ -101,7 +100,6 @@ export const Navbar: React.FC = () => {
                 </a>
               );
             })}
-                        
           </div>
 
           {/* Mobile Menu Button */}
@@ -132,7 +130,6 @@ export const Navbar: React.FC = () => {
                 {item.label}
               </a>
             ))}
-            
           </div>
         </motion.div>
       </div>

@@ -7,10 +7,10 @@ import { GlassCard } from '../ui/GlassCard';
 import { Button } from '../ui/Button';
 import { projects } from '../../data/projects';
 
-// Import images directly from src/assets/images/
-import retailImage from '../../assets/images/dash.png?url';
-import flightImage from '../../assets/images/Dashboard.png?url';
-import uberImage from '../../assets/images/airflow.png';
+// Import images directly from src/assets/images/ (without ?url)
+import retailImage from '../../assets/images/dash.png';
+import flightImage from '../../assets/images/Dashboard.png';
+import uberImage from '../../assets/images/airflow.png'
 
 const iconMap = {
   'retail-warehouse': Database,

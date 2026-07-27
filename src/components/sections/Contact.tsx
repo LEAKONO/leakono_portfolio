@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Send, CheckCircle, Phone } from 'lucide-react';
 import { AnimatedSection } from '../animations/AnimatedSection';
 import { Button } from '../ui/Button';

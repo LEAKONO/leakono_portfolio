@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Database, Cloud, Code, BarChart3, Zap, Layers, GitBranch } from 'lucide-react';
+import { Database, Cloud, Code, BarChart3, Layers, GitBranch } from 'lucide-react';
 import { AnimatedSection } from '../animations/AnimatedSection';
 import { GlassCard } from '../ui/GlassCard';
 
@@ -70,7 +69,8 @@ const stages: PipelineStage[] = [
 
 export const Pipeline: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const flowRef = useRef<HTMLDivElement>(null);
+  // Remove flowRef if not used, or keep it commented
+  // const flowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -193,8 +193,6 @@ export const Pipeline: React.FC = () => {
                 </React.Fragment>
               ))}
             </div>
-
-           
           </div>
         </div>
       </AnimatedSection>

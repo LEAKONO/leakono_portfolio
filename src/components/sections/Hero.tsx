@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { Github, Linkedin, ArrowRight, Download, Briefcase } from 'lucide-react';
+import { Github, Linkedin, ArrowRight, Download } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const Hero: React.FC = () => {

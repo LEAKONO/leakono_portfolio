@@ -8,7 +8,8 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
-  const lenisRef = useLenis();
+  // Use the lenis ref or just call the hook
+  useLenis();
 
   useEffect(() => {
     // Handle hash navigation for projects section
