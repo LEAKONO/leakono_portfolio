@@ -4,19 +4,13 @@
 [![GitHub](https://img.shields.io/badge/GitHub-LEAKONO-181717?style=for-the-badge&logo=github)](https://github.com/LEAKONO)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Emmanuel%20Leakono-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/emmanuel-leakono/)
 
-## 🚀 Live Demo
-
-**[View Portfolio Live](https://LEAKONO.github.io/emmanuel-portfolio)**
-
----
-
-## 📋 Overview
+##  Overview
 
 A modern, portfolio designed to communicate **"I build scalable, production-ready data platforms."** This portfolio showcases my expertise in cloud data engineering, ETL/ELT pipelines, and modern data stack tools through interactive visualizations and detailed project case studies.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Core
 - **[React 19](https://react.dev/)** - Modern UI library
@@ -40,7 +34,7 @@ A modern, portfolio designed to communicate **"I build scalable, production-read
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Design
 - **Dark Theme** - Premium, professional aesthetic
