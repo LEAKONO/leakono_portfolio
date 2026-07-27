@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { Github, Linkedin, ArrowRight, Download } from 'lucide-react';
+import { Github, Linkedin, ArrowRight, Download, Briefcase } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const Hero: React.FC = () => {
@@ -41,6 +41,13 @@ export const Hero: React.FC = () => {
         y: 20,
         duration: 1,
         delay: 0.5,
+        ease: 'power3.out',
+      });
+      gsap.from('.hero-status', {
+        opacity: 0,
+        y: 20,
+        duration: 1,
+        delay: 0.6,
         ease: 'power3.out',
       });
     }, containerRef);
@@ -84,8 +91,15 @@ export const Hero: React.FC = () => {
               </div>
               {/* Title below image */}
               <div className="hero-title-role mt-3 md:mt-4 text-center">
-                <span className="inline-block px-4 py-1.5 md:px-6 md:py-2 rounded-full glass border border-blue-500/20 text-xs md:text-sm  font-bold text-blue-300">
-                   Data Engineer
+                <span className="inline-block px-4 py-1.5 md:px-6 md:py-2 rounded-full glass border border-blue-500/20 text-xs md:text-sm font-bold text-blue-300">
+                  Data Engineer
+                </span>
+              </div>
+              {/* Status below title */}
+              <div className="hero-status mt-2 text-center">
+                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-xs text-green-400">
+                  <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                  Open to Data Engineering opportunities
                 </span>
               </div>
               {/* Decorative rings */}
