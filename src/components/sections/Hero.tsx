@@ -143,7 +143,7 @@ export const Hero: React.FC = () => {
                 </Button>
               </a>
               <a
-                href="https://drive.google.com/your-cv-link"
+                href="https://drive.google.com/file/d/1XPMUQr987L4Z24MDXBI9oI_fFLTrZyLF/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
