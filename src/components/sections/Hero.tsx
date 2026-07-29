@@ -76,11 +76,11 @@ export const Hero: React.FC = () => {
           transition={{ duration: 1 }}
           className="flex flex-col lg:flex-row-reverse gap-8 lg:gap-12 items-center lg:items-center"
         >
-          {/* Profile Picture - Comes first on mobile */}
-          <div className="hero-image flex-shrink-0 w-full lg:w-auto flex flex-col items-center">
-            <div className="relative">
+          {/* Profile Picture - Centered on all screens */}
+          <div className="hero-image flex-shrink-0 w-full lg:w-auto flex flex-col items-center justify-center">
+            <div className="relative mx-auto lg:mx-0">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-2xl opacity-20 animate-pulse-slow" />
-              <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-[420px] lg:h-[420px] rounded-full glass border-2 border-blue-500/30 overflow-hidden shadow-2xl shadow-blue-500/20">
+              <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-[420px] lg:h-[420px] rounded-full glass border-2 border-blue-500/30 overflow-hidden shadow-2xl shadow-blue-500/20 mx-auto">
                 <div className="w-full h-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 flex items-center justify-center">
                   <img
                     src="/assets/images/me.jpeg"
