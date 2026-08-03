@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
         <div className="absolute w-[500px] h-[500px] bg-purple-500/20 rounded-full blur-[100px] -bottom-48 -left-48 animate-pulse-slow animation-delay-200" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto w-full pt-4 pb-8 md:py-12 lg:py-20">
+      <div className="relative z-10 max-w-7xl mx-auto w-full pt-2 pb-8 md:py-12 lg:py-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -104,10 +104,9 @@ export const Hero: React.FC = () => {
 
           {/* Left Content - Comes after image on mobile */}
           <div className="flex-1 space-y-3 md:space-y-4 lg:space-y-6 text-center lg:text-left">
-            <h1 className="hero-title text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
+             <h1 className="hero-title text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
               <span className="text-white">Emmanuel</span>{' '}
               <span className="gradient-text">Leakono</span>
-              
             </h1>
 
             <p className="hero-subtitle text-xs sm:text-sm md:text-base text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed border-l-0 lg:border-l-2 border-blue-400/30 lg:pl-4">
@@ -115,7 +114,7 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="hero-cta flex flex-wrap gap-2 md:gap-3 lg:gap-4 pt-1 md:pt-2 lg:pt-4 justify-center lg:justify-start">
-              <Button size="sm" onClick={scrollToProjects} icon={<ArrowRight size={16} />}>
+              <Button onClick={scrollToProjects} icon={<ArrowRight size={18} />}>
                 View Projects
               </Button>
               <a
@@ -123,7 +122,7 @@ export const Hero: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="sm" variant="secondary" icon={<Github size={16} />}>
+                <Button variant="secondary" icon={<Github size={18} />}>
                   GitHub
                 </Button>
               </a>
@@ -132,7 +131,7 @@ export const Hero: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="sm" variant="secondary" icon={<Linkedin size={16} />}>
+                <Button variant="secondary" icon={<Linkedin size={18} />}>
                   LinkedIn
                 </Button>
               </a>
@@ -141,7 +140,7 @@ export const Hero: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="sm" variant="outline" icon={<Download size={16} />}>
+                <Button variant="outline" icon={<Download size={18} />}>
                   Download CV
                 </Button>
               </a>
