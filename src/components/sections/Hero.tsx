@@ -89,8 +89,8 @@ export const Hero: React.FC = () => {
                   />
                 </div>
               </div>
-              {/* Title below image */}
-              <div className="hero-title-role mt-2 md:mt-3 lg:mt-4 text-center">
+              {/* Title below image - perfectly centered */}
+              <div className="hero-title-role mt-2 md:mt-3 lg:mt-4 text-center w-full">
                 <span className="inline-block px-3 py-1 md:px-4 md:py-1.5 lg:px-6 lg:py-2 rounded-full glass border border-blue-500/20 text-xs md:text-sm font-bold text-blue-300">
                   Data Engineer
                 </span>
