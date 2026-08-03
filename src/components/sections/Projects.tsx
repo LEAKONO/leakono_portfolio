@@ -10,7 +10,7 @@ import { projects } from '../../data/projects';
 // Import images directly from src/assets/images/ (without ?url)
 import retailImage from '../../assets/images/dash.png';
 import flightImage from '../../assets/images/Dashboard.png';
-import uberImage from '../../assets/images/airflow.png'
+import uberImage from '../../assets/images/uber.png'
 
 const iconMap = {
   'retail-warehouse': Database,
