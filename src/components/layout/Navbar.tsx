@@ -73,10 +73,10 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 group cursor-pointer"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center font-bold text-white text-lg shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition-all duration-300 group-hover:scale-105">
-              EL
+              LE
             </div>
             <span className="text-xl font-bold text-white group-hover:text-blue-400 transition duration-300">
-              Emmanuel<span className="text-blue-400">.</span>
+              Leakono<span className="text-blue-400">.</span>
             </span>
           </a>
 

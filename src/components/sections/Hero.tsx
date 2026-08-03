@@ -96,12 +96,7 @@ export const Hero: React.FC = () => {
                 </span>
               </div>
               {/* Status below title */}
-              <div className="hero-status mt-2 text-center">
-                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-xs text-green-400">
-                  <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                  Open to Data Engineering opportunities
-                </span>
-              </div>
+              {/*  */}
               {/* Decorative rings */}
               <div className="absolute -top-3 -right-3 md:-top-4 md:-right-4 w-8 h-8 md:w-12 md:h-12 rounded-full bg-blue-500/20 blur-xl animate-pulse-slow" />
               <div className="absolute -bottom-3 -left-3 md:-bottom-4 md:-left-4 w-10 h-10 md:w-16 md:h-16 rounded-full bg-purple-500/20 blur-xl animate-pulse-slow animation-delay-200" />
